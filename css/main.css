@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	width:100%;
+	max-width: 1200px;
+	margin:0px auto;
+}
+
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+
+.row:after{
+	clear: both;
+}
+
+
+/* COLUMNAS */
+
+[class*="col"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+
+.col-1{
+	width: 8.333333%;
+}
+.col-2{
+	width: 16.666667%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.333333%;
+}
+.col-5{
+	width: 41.666667%;
+}
+
+
+/* DIVISIONES */
+
+header{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+ nav ul {
+	text-align: center;
+}
+
+/* LINKS DE CABECERA */
+nav ul a{
+	padding: 10px 20px ;
+	display: inline-block;
+	color: black;
+	text-decoration:none;
+	font-style: 18px ;
+}
+
+/* SEPARADOR*/
+.separador{
+  background-color: black;
+  height: 3px;
+  width: 49%;
+  margin-left: 27%;
+ } 
+
+.col-3{
+text-align: center;
+width: 25%;
+height: 15%;
+margin: 20px;
+display: inline-block;
+}
+
+.separadordos{
+  background-color: black;
+  height: 3px;
+  width: 10%;
+ } 
+
+.secciondos p{
+	float: none;
+	width: 300px;
+margin-left: 40%;
+font-family: 33px;
+	text-align: center;
+}
+
+
